@@ -1,0 +1,25 @@
+# ==========================================
+# CMake & Build Artifacts
+# ==========================================
+build/
+bin/
+obj/
+
+# ==========================================
+# Model Weights & Large Serialized Files
+# ==========================================
+*.pt
+*.onnx
+*.pkl
+
+# ==========================================
+# Datasets & Media (Videos)
+# ==========================================
+# Ignore video folders entirely
+input/
+output_videos/
+*.mp4
+
+# Ignore data contents but keep the directory via .gitkeep
+data/*
+!data/.gitkeep
