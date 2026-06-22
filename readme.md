@@ -1,7 +1,4 @@
-# Out-of-Position (OOP) Detection — Euro NCAP Case 1
-
-**Front Passenger Feet on Dashboard Detection** 
-DeltaX AI Engineer Assignment · YOLOv8m-Pose + Logistic Regression · C++17 + Python 3.12
+# Out-of-Position (OOP) Detection — 
 
 ---
 
@@ -16,9 +13,7 @@ The system processes video from a 170° fisheye infrared camera (1920×1080 @ 40
 | Metric | Value |
 |--------|-------|
 | Mean F1 (held-out positive videos) | **0.918** |
-| Precision on held-out positive_1 | 1.000 |
 | Recall on held-out positive_1 | 0.739 |
-| Recall on held-out positive_2 | 1.000 |
 | False positive rate (negative videos) | 1.7 % |
 
 ---
